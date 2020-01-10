@@ -1,0 +1,16 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.item a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.item a:hover,
+.item a:focus {
+  color: #ff4081;
+  text-decoration: underline;
+}
