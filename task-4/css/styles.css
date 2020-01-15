@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.logo {
+  font-size: 18px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.item-menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.item:not(:first-child) {
+  margin-left: 12px;
+}
+
+.link-item {
+  font-family: inherit;
+  color: inherit;
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:focus {
+  color: #2196f3;
+}
